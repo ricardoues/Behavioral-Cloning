@@ -60,7 +60,7 @@ The model.py file contains the code for training and saving the convolution neur
 
 I used the NVIDIA Architecture proposed in the videos. The network consists of a normalization layer (to avoid numerical optimization problems) followed by five convolutional layers (model.py lines 225-229), followed by four fully connected layers (model.py lines 231-237). In the first three convolutional layers, we use 5x5 filter sizes and  2x2 strides. Finally, we use 3x3 filter sizes and 1x1 strides in the last two convolutional layers. 
 
-The data is normalized in the model using a Keras lambda layer (model.py line 222). Moreover cropping was used in order to provide meaningful information to the deep learning, for example: the sky is not relevant to the deep learning model (model.py line 223). 
+The data is normalized in the model using a Keras lambda layer (model.py line 222). Moreover cropping was used in order to provide meaningful information to the deep learning, for example, the sky is not relevant to the deep learning model (model.py line 223). 
 
 #### 2. Attempts to reduce overfitting in the model
 
