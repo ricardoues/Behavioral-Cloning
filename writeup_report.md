@@ -19,6 +19,11 @@ The goals of this project are the following:
 [image1]: ./images/image01.png "Center Lane Driving"
 [image2]: ./images/image02.png "Left Lane Driving"
 [image3]: ./images/image03.png "Right Lane Driving"
+[image4]: ./images/image04.png "Distribution of steering angles"
+[image5]: ./images/image05.png "Distribution of steering angles"
+[image6]: ./images/image06.png "Right Lane Driving"
+[image7]: ./images/image07.png "Flipped Right Lane Driving"
+
 
 
 
@@ -108,16 +113,19 @@ To capture good driving behavior, I first recorded three laps on track one using
 ![alt text][image3]
 
 
+We examine the distribution of the steering angles by means of a histogram which is shown as follows: 
 
+![alt text][image4]
 
+The data is not uniform, that is why the model is specialized in the steering angle localized in the center. In order to fix it, we are going to generate data that will be uniformly distributed with respect to the steering angles, a function was developed (model.py lines 121-178). The resulting distribution of the steering angles once the function was run is shown as follows:
 
-To augment the data sat, I also flipped images and angles thinking that this would improve the capacity of the generalization of the deep learning models, we must remember that deep learning models are prone to memorize the data (overfitting) that is why we need a lot of data to fit this kind of models. For example, here is an image that has then been flipped:
+![alt text][image5]
+
+To augment the data set, I also flipped images and angles thinking that this would improve the capacity of the generalization of the deep learning models, we must remember that deep learning models are prone to memorize the data (overfitting) that is why we need a lot of data to fit this kind of models. For example, here is an image that has then been flipped:
 
 ![alt text][image6]
+
 ![alt text][image7]
-
-
-
 
 
 After the collection process, I had X number of data points. I then preprocessed this data by ...
