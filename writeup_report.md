@@ -16,7 +16,9 @@ The goals of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./images/image1.png "Distribution of steering angles"
+[image1]: ./images/image01.png "Center Lane Driving"
+[image2]: ./images/image02.png "Left Lane Driving"
+[image3]: ./images/image03.png "Right Lane Driving"
 
 
 
@@ -97,31 +99,30 @@ The final model architecture consisted of a normalization layer, followed by fiv
 
 #### 3. Creation of the Training Set & Training Process
 
-To capture good driving behavior, I first recorded three laps on track one using center, left and right lane driving. Here are examples of images 
+To capture good driving behavior, I first recorded three laps on track one using center, left and right lane driving. Here are an examples of images of center, left and right lane driving:
 
-
-Here are an examples of images of center lane driving:
+![alt text][image1]
 
 ![alt text][image2]
 
-I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to .... These images show what a recovery looks like starting from ... :
-
 ![alt text][image3]
-![alt text][image4]
-![alt text][image5]
 
-Then I repeated this process on track two in order to get more data points.
 
-To augment the data sat, I also flipped images and angles thinking that this would ... For example, here is an image that has then been flipped:
+
+
+
+To augment the data sat, I also flipped images and angles thinking that this would improve the capacity of the generalization of the deep learning models, we must remember that deep learning models are prone to memorize the data (overfitting) that is why we need a lot of data to fit this kind of models. For example, here is an image that has then been flipped:
 
 ![alt text][image6]
 ![alt text][image7]
 
-Etc ....
+
+
+
 
 After the collection process, I had X number of data points. I then preprocessed this data by ...
 
 
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
 
-I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was Z as evidenced by ... I used an adam optimizer so that manually training the learning rate wasn't necessary.
+I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was Z as evidenced by ... I used an adam optimizer so that manually training the learning rate was not necessary.
