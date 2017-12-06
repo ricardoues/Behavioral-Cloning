@@ -93,7 +93,7 @@ At the end of the process, the vehicle is able to drive autonomously around the 
 
 #### 2. Final Model Architecture
 
-The final model architecture (model.py lines 18-24) consisted of a convolution neural network with the following layers and layer sizes. The network consists of a normalization layer followed by five convolutional layers, followed by four fully connected layers. I used dropout as a way to regularize the deep learning model. 
+The final model architecture consisted of a normalization layer, followed by five convolutional layers, followed by four fully connected layers. I used dropout as a way to regularize the model. 
 
 #### 3. Creation of the Training Set & Training Process
 
