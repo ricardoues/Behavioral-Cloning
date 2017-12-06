@@ -87,16 +87,13 @@ In order to gauge how well the model was working, I split my image and steering 
 
 LeNet architecture shown the same problem, underfitting for this reason we have to use a more complex architecture such as NVIDIA architecture. To combat the overfitting, I modified the model, adding dropout in the fully connected layers. 
 
-
 The final step was to run the simulator to see how well the car was driving around track one. There were a few spots where the vehicle fell off the track to improve the driving behavior in these cases, I notice that the steering angles localized in the center are more common and that is the reason that the model cannot generalize well. We used oversampling to fix it.
 
 At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road.
 
 #### 2. Final Model Architecture
 
-The final model architecture (model.py lines 18-24) consisted of a convolution neural network with the following layers and layer sizes. 
-
-
+The final model architecture (model.py lines 18-24) consisted of a convolution neural network with the following layers and layer sizes. The network consists of a normalization layer followed by five convolutional layers, followed by four fully connected layers. I used dropout as a way to regularize the deep learning model. 
 
 #### 3. Creation of the Training Set & Training Process
 
