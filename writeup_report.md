@@ -128,9 +128,6 @@ To augment the data set, I also flipped images and angles thinking that this wou
 ![alt text][image7]
 
 
-After the collection process, I had X number of data points. I then preprocessed this data by ...
+After the collection process, I had 42000 number of data points. I then preprocessed this data by using normalization and cropping on the information of the images.
 
-
-I finally randomly shuffled the data set and put 20% of the data into a validation set. 
-
-I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was Z as evidenced by ... I used an adam optimizer so that manually training the learning rate was not necessary.
+I finally randomly shuffled the data set and put 20% of the data into a validation set by means the parameter validation_split of the method fit from Keras. Due to we observe how the model works in the simulator, we think it is not neccessary to use a test set. I used an adam optimizer so that manually training the learning rate was not necessary. Finally, 
