@@ -83,7 +83,7 @@ Training data was chosen to keep the vehicle driving on the road. I used a combi
 
 #### 1. Solution Design Approach
 
-The overall strategy for deriving a model architecture was to begin with simpler models and then use architectures more complex such as Lenet and NVIDIA architecture.
+The overall strategy for deriving a model architecture was to begin with simpler models and after that, use architectures more complex such as Lenet and NVIDIA architecture.
 
 My first step was to use a convolution neural network model with two convolutional layers and three fully connected layers. I thought this model might be appropriate as a starting point since that always is a good practice to start with parsimonious models.
 
