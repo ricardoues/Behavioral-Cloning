@@ -19,6 +19,8 @@ The goals of this project are the following:
 [image1]: ./images/image01.png "Center Lane Driving"
 [image2]: ./images/image02.png "Left Lane Driving"
 [image3]: ./images/image03.png "Right Lane Driving"
+[image4]: ./images/image04.png "Distribution of steering angles"
+[image5]: ./images/image05.png "Distribution of steering angles"
 
 
 
@@ -108,10 +110,12 @@ To capture good driving behavior, I first recorded three laps on track one using
 ![alt text][image3]
 
 
+We examine the distribution of the steering angles by means of a histogram which is shown as follows: 
+
+![alt text][image3]
 
 
-
-To augment the data sat, I also flipped images and angles thinking that this would improve the capacity of the generalization of the deep learning models, we must remember that deep learning models are prone to memorize the data (overfitting) that is why we need a lot of data to fit this kind of models. For example, here is an image that has then been flipped:
+To augment the data set, I also flipped images and angles thinking that this would improve the capacity of the generalization of the deep learning models, we must remember that deep learning models are prone to memorize the data (overfitting) that is why we need a lot of data to fit this kind of models. For example, here is an image that has then been flipped:
 
 ![alt text][image6]
 ![alt text][image7]
