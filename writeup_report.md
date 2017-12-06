@@ -97,7 +97,10 @@ The final model architecture consisted of a normalization layer, followed by fiv
 
 #### 3. Creation of the Training Set & Training Process
 
-To capture good driving behavior, I first recorded three laps on track one using center, left and right lane driving. Here is an example image of center lane driving:
+To capture good driving behavior, I first recorded three laps on track one using center, left and right lane driving. Here are examples of images 
+
+
+Here are an examples of images of center lane driving:
 
 ![alt text][image2]
 
