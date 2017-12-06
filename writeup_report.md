@@ -21,6 +21,9 @@ The goals of this project are the following:
 [image3]: ./images/image03.png "Right Lane Driving"
 [image4]: ./images/image04.png "Distribution of steering angles"
 [image5]: ./images/image05.png "Distribution of steering angles"
+[image6]: ./images/image06.png "Right Lane Driving"
+[image7]: ./images/image07.png "Flipped Right Lane Driving"
+
 
 
 
@@ -121,6 +124,7 @@ The data is not uniform, that is why the model is specialized in the steering an
 To augment the data set, I also flipped images and angles thinking that this would improve the capacity of the generalization of the deep learning models, we must remember that deep learning models are prone to memorize the data (overfitting) that is why we need a lot of data to fit this kind of models. For example, here is an image that has then been flipped:
 
 ![alt text][image6]
+
 ![alt text][image7]
 
 
