@@ -112,7 +112,7 @@ To capture good driving behavior, I first recorded three laps on track one using
 
 We examine the distribution of the steering angles by means of a histogram which is shown as follows: 
 
-![alt text][image3]
+![alt text][image4]
 
 
 To augment the data set, I also flipped images and angles thinking that this would improve the capacity of the generalization of the deep learning models, we must remember that deep learning models are prone to memorize the data (overfitting) that is why we need a lot of data to fit this kind of models. For example, here is an image that has then been flipped:
